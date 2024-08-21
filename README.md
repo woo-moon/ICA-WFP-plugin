@@ -1,5 +1,6 @@
 <p>Make ICA maps</p>
         <p>This plugin is for spatial analysis in ICA reports required by WFP.</p>
+        Download it to the folder "C:\Users\users_name\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins" (the folder you install your QGIS)
         <p>In module "Set Administration Layer and CRS", click the button "set Admin Shapefile and CRS". In the popping up window, select the shapefile of the country on the proper administrative level (usually the second level), and the CRS will be identified automatically. </p>
         <p>In the module "Rapid Shock Analysis", double click the items in the list. In the popping up window, select the raster layer for the concerning shock. For functions, select the statistical methods (percentage and mean are recommended by WFP). for the Palette, you may want to use the pre-defined Palette, or define a new palette for Class Low, Medium and High. <p>
         <p>In the module "Slow Shock Analysis", double click the items in the list. In the popping up window, select the raster layer for the concerning shock. Set a threshold the years with the concerning shock above which is identified as a shock-threatened year. Use a pre-defined palette or a new palette. <p>
